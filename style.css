@@ -45,5 +45,26 @@ img {
 }
 
 .pricing {
-    margin-top: 30px;
+    margin-top: 1.875rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+}
+
+.new-price {
+    font-family: var(--frauces);
+    font-size: 2rem;
+    color: var(--darkcyan);
+    font-weight: 700;
+}
+
+.old-price {
+    padding-left: 1.25rem;
+    padding-top: 15px;
+    text-decoration: line-through;
+}
+
+.btn {
+    background-color: var(--darkcyan);
+    color: var(--white);
+    text-decoration: none;
 }
