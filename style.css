@@ -24,7 +24,11 @@ img {
     width: 100%;
 }
 
-.uppercase {
+.content {
+    padding: 20px 20px;
+}
+
+.content .uppercase {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
