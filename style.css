@@ -15,15 +15,31 @@
 }
 
 body {
+    background-color: var(--cream);
+    /* Bakgrundsfärg för hela sidan */
     font-family: var(--montserrat);
     font-weight: 500;
     color: var(--darkgrayishblue);
     font-size: 0.875rem;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 img {
     width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.main {
+    margin: 30px 0;
+}
+
+.container {
+    background-color: var(--white);
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: ;
 }
 
 .content {
@@ -65,6 +81,18 @@ img {
 
 .btn {
     background-color: var(--darkcyan);
+    font-family: var(--montserrat);
     color: var(--white);
+    font-weight: 500;
     text-decoration: none;
+    padding: 1rem 0;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    height: auto;
+}
+
+.btn svg {
+    margin-right: 0.625rem;
+    vertical-align: middle;
 }
