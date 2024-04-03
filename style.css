@@ -16,7 +16,6 @@
 
 body {
     background-color: var(--cream);
-    /* Bakgrundsfärg för hela sidan */
     font-family: var(--montserrat);
     font-weight: 500;
     color: var(--darkgrayishblue);
@@ -24,10 +23,14 @@ body {
     line-height: 1.6;
 }
 
-img {
+.image img {
     width: 100%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+
+.desktop {
+    display: none;
 }
 
 .main {
@@ -48,7 +51,7 @@ img {
 
 .content .uppercase {
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-bottom: 0.625rem;
 }
 
@@ -102,9 +105,30 @@ img {
     .container {
         display: flex;
         flex-direction: row;
+        max-width: 600px;
     }
 
-    img {
+    .image img {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 8px;
         height: 100%;
+    }
+
+    .content {
+        width: 90%;
+    }
+
+    .content h1 {
+        font-size: 2.3rem;
+        margin-top: 0.938rem;
+        margin-bottom: 1.875rem;
+    }
+
+    body {
+        font-size: 0.92rem;
+    }
+
+    .main {
+        margin: 8rem 0;
     }
 }
