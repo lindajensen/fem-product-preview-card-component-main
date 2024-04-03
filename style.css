@@ -97,3 +97,14 @@ img {
     margin-right: 0.625rem;
     vertical-align: middle;
 }
+
+@media screen and (min-width: 48em) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        height: 100%;
+    }
+}
