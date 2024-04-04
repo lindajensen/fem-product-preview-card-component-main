@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/lindajensen/fem-product-preview-card-component-main.git)
 - Live Site URL: [Netlify](https://ruby-product-preview-card-component.netlify.app/)
 
 ## My process
