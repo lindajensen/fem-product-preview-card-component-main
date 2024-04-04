@@ -30,10 +30,6 @@ body {
     border-top-right-radius: 8px;
 }
 
-.desktop {
-    display: none;
-}
-
 .main {
     margin: 1.875rem 0;
 }
@@ -135,6 +131,6 @@ body {
     }
 
     .main {
-        margin: 8rem 0;
+        margin: 9rem 0;
     }
 }
